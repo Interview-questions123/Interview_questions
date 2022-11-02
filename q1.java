@@ -63,8 +63,8 @@ output ="ABDGKPV, CEHLQW,  FIMRX,   JNSY,    OTZ,     U"
 public class PrintWordsVertically {
 	
 	 public static List<String> printVertically(String s) {
-	        String[] words = s.split(" ");
-	        int mx = 0;
+	        
+	        
 	        for (int i = 0; i < words.length; ++i)
 	            mx = Math.max(mx, words[i].length());
 	        List<String> ans = new ArrayList<>();
